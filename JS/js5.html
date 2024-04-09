@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>DOCUMENT</title>
+</head>
+<body>
+    <style>
+body{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Flag_of_Ukraine.jpg/1200px-Flag_of_Ukraine.jpg);
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+}
+    </style>
+    <script>
+        let freedomOfUa = prompt('В якому році було ухвалено Акт про проголошення незалежності України?','');
+        if (freedomOfUa == null) { 
+            alert("Дію скасовано")
+         } 
+         else if (freedomOfUa > 1991) {
+            alert('Та ні, це сталося раніше!' );
+        } 
+        else if (freedomOfUa < 1991) {
+            alert('Ні, ця подія відбулася пізніше!');
+        } 
+        else if (freedomOfUa ==1991) { 
+          alert('Так, Ваша відповідь правильна!'); 
+        } 
+        else {
+        alert('Вводьте, будь ласка, цифри');
+        }
+    </script>
+    </body>
+    </html>

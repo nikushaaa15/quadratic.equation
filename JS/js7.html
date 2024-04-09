@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        background-image: url(https://rvua.com.ua/wp-content/uploads/2024/03/3-1536x1024.jpg);
+        background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        
+    }
+</style>
+</head>
+<body>
+    <script> 
+    let login = prompt ("Введіть логін :");
+
+    if (login === null) {
+        alert("Вхід скасовано");
+    } else if (login === "User") {
+        let password = prompt ("Введіть пароль :");
+
+         if (password === null) {
+            alert("Вхід скасовано");
+         } else if (password === "password") {
+            alert (" Ласкаво просимо! ") ;
+         } else {
+            alert ("Пароль невірний!");
+         }
+    } else {
+        alert("Користувача невизначено");
+    }
+    </script>
+</body>
+</html>
